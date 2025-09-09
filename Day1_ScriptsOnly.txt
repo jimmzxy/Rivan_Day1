@@ -1,8 +1,8 @@
 FIND AND REPLACE THE FOLLOWING - From # to #
 
 ! Monitor Num:      62
-! Cam6 Mac Add:     203a.0782.bd3b
-! Cam8 Mac Add:     #camera8macadd#
+! Cam6 Mac Add:     ccd8.c1fb.1519
+! Cam8 Mac Add:     001a.070b.472e
 ! Ephone 1 Mac: 	203a.0782.bd3b
 ! Ephone 2 Mac: 	ccd8.c1fb.1519
 ! YourPhone Mac:	#mym0bilemac#
@@ -176,7 +176,7 @@ conf t
   client-identifier 203a.0782.bd3b
  ip dhcp pool CAMERA8
   host 10.62.50.8 255.255.255.0
-  client-identifier #camera8macadd#
+  client-identifier 001a.070b.472e
  end
 
 !@default route Corebaba
