@@ -1,7 +1,7 @@
 FIND AND REPLACE THE FOLLOWING - From # to #
 
 ! Monitor Num:      62
-! Cam6 Mac Add:     ccd8.c1fb.1519
+! Cam6 Mac Add:     001a.0706.c302
 ! Cam8 Mac Add:     001a.070b.472e
 ! Ephone 1 Mac: 	203a.0782.bd3b
 ! Ephone 2 Mac: 	ccd8.c1fb.1519
@@ -583,5 +583,6 @@ conf t
 conf t
  class-map voip
   match ip dscp  ?
+
 
 
